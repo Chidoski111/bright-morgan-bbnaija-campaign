@@ -1,144 +1,131 @@
 const navLinks = [
   {
-    name: "Work",
-    link: "#work",
+    name: "About Bright",
+    link: "#about",
   },
   {
-    name: "Experience",
-    link: "#experience",
+    name: "BBNaija Journey",
+    link: "#journey",
   },
   {
-    name: "Skills",
-    link: "#skills",
+    name: "Vote Bright",
+    link: "#vote",
   },
   {
-    name: "Testimonials",
-    link: "#testimonials",
+    name: "Contact",
+    link: "#contact",
   },
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Star", imgPath: "/images/star.png" },
+  { text: "Model", imgPath: "/images/person.png" },
+  { text: "Actor", imgPath: "/images/designs.svg" },
+  { text: "Chef", imgPath: "/images/ideas.svg" },
+  { text: "Bright", imgPath: "/images/star.png" },
+  { text: "Winner", imgPath: "/images/gold-star.png" },
+  { text: "BBNaija", imgPath: "/images/star.png" },
+  { text: "Morgan", imgPath: "/images/person.png" },
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 4, suffix: "", label: "Years Auditioning" },
+  { value: 28, suffix: "", label: "Years Old" },
+  { value: 1, suffix: "", label: "Dream Realized" },
+  { value: 100, suffix: "%", label: "Team BRIGHTSTARS" },
 ];
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/insta.png",
+    link: "https://www.instagram.com/brightmorgan__?igsh=aWt5ZmVsejR5NnQ1",
+    name: "Instagram"
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/images/x.png",
+    link: "https://x.com/brightmorgan___?s=21",
+    name: "X (Twitter)"
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/bright-morgan",
+    name: "LinkedIn"
   },
 ];
 
-const abilities = [
+const featureCards = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath: "/morgan-main.jpg",
+    title: "Charismatic Model",
+    desc: "Natural charisma and striking presence that captivates audiences and creates memorable moments in every shoot.",
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath: "/fineboy-morgan.jpg",
+    title: "Rising Star",
+    desc: "Emerging talent with exceptional dedication, bringing fresh energy and authentic personality to every opportunity.",
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: "/morgan-relaxed.jpg",
+    title: "Talented Actor",
+    desc: "Passionate about storytelling and bringing characters to life through authentic performances and emotional depth.",
+  },
+  {
+    imgPath: "/morgan-selfie.jpg",
+    title: "Skilled Chef",
+    desc: "Creative culinary artist who loves experimenting with flavors and creating memorable dining experiences.",
   },
 ];
 
 const techStackImgs = [
   {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    name: "Vote for Bright",
+    imgPath: "/morgan-main.jpg",
   },
   {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    name: "Share on Social",
+    imgPath: "/fineboy-morgan.jpg",
   },
   {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    name: "Join WhatsApp",
+    imgPath: "/morgan-relaxed.jpg",
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: "Follow Journey",
+    imgPath: "/morgan-selfie.jpg",
   },
   {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
+    name: "Team BRIGHTSTARS",
+    imgPath: "/morgan-main.jpg",
   },
 ];
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "Modeling Star",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Natural Actor",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "Creative Chef",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Talented Dancer",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Born Entertainer",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -147,39 +134,40 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    review: "Bright Morgan has shown incredible dedication and perseverance in his BBNaija journey. His 4-year commitment to auditioning demonstrates the passion and determination that will make him a winner!",
+    imgPath: "/fineboy-morgan.jpg",
+    logoPath: "/images/star.png",
+    title: "BBNaija Housemate - Season 10",
+    date: "December 2024 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Representing Team BRIGHTSTARS with authenticity and charisma in the Big Brother house.",
+      "Showcasing talents in modeling, acting, and culinary arts to millions of viewers across Africa.",
+      "Building genuine connections and demonstrating leadership qualities among fellow housemates.",
+      "Engaging with fans through social media and maintaining positive energy throughout the competition.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
+    review: "Bright has an incredible stage presence and natural charisma that lights up every room. His acting skills and ability to connect with audiences make him a standout performer.",
+    imgPath: "/morgan-main.jpg",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Professional Actor & Model",
+    date: "2020 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Featured in multiple fashion campaigns and commercial advertisements showcasing versatility.",
+      "Delivered compelling performances in theater productions and independent film projects.",
+      "Built a strong social media presence connecting authentically with fans and followers.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
+    review: "Bright's culinary creativity and passion for cooking bring people together. He has a gift for creating memorable experiences through food and hospitality.",
+    imgPath: "/morgan-relaxed.jpg",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Creative Chef & Content Creator",
+    date: "2018 - Present",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed signature recipes and cooking techniques that blend traditional and modern flavors.",
+      "Created engaging food content for social media platforms, building a loyal following.",
+      "Hosted cooking sessions and events, bringing communities together through shared meals.",
     ],
   },
 ];
@@ -201,78 +189,213 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Team BRIGHTSTARS Leader",
+    mentions: "@teambrrightstars",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "Bright Morgan is not just a contestant, he's an inspiration! His journey to BBNaija shows true dedication and his multi-talented nature makes him the perfect housemate. Vote Bright!",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Fashion Industry Insider",
+    mentions: "@fashioninsider",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "Working with Bright has been phenomenal. His natural modeling ability and professional attitude on set make every shoot a success. He's destined for greatness!",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Acting Coach",
+    mentions: "@dramacoach",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+      "Bright's talent for acting is remarkable. He brings depth and authenticity to every role, connecting with audiences on an emotional level. His BBNaija journey will showcase this beautifully.",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Food Content Creator",
+    mentions: "@foodiecreator",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Bright's culinary creativity is amazing! His cooking content always brings people together and his recipes are both innovative and delicious. Can't wait to see his cooking skills in the BBNaija house!",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "BBNaija Fan",
+    mentions: "@bbnaijafan2024",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+      "We've been following Bright's journey for years and his persistence is incredible! Four years of auditioning shows his commitment. This is his year - Team BRIGHTSTARS all the way!",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Entertainment Reporter",
+    mentions: "@entertainmentnews",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "Bright Morgan represents the new generation of multi-talented entertainers. His modeling, acting, and culinary skills combined with his authentic personality make him BBNaija Season 10's star to watch!",
   },
 ];
 
-const socialImgs = [
+// BBNaija Interactive Features
+const votingCountdown = {
+  title: "Vote for Bright Morgan",
+  description: "Every vote counts! Support Bright's BBNaija journey.",
+  endDate: "2025-03-30T20:00:00Z", // Adjust based on actual voting schedule
+  voteLink: "https://africamagic.dstv.com/show/bbnaija/vote",
+  whatsappLink: "https://wa.me/2348123456789?text=I'm%20voting%20for%20Bright%20Morgan%20%23TeamBRIGHTSTARS",
+  instructions: [
+    "Visit the official BBNaija voting website or open your DStv/GOtv app",
+    "Log in with your DStv or GOtv subscriber details",
+    "Find Bright Morgan in the list of housemates",
+    "Click on his profile and select 'Vote'",
+    "Confirm your vote and share on social media with #TeamBRIGHTSTARS",
+    "Encourage friends and family to vote too!"
+  ],
+};
+
+const interactivePolls = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
+    id: "favorite-talent",
+    question: "What's your favorite Bright Morgan talent?",
+    options: [
+      { id: "modeling", text: "Modeling", votes: 245 },
+      { id: "acting", text: "Acting", votes: 189 },
+      { id: "cooking", text: "Cooking", votes: 156 },
+      { id: "personality", text: "Amazing Personality", votes: 298 },
+    ],
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    id: "prediction",
+    question: "Bright's strongest game strategy?",
+    options: [
+      { id: "social", text: "Social Connections", votes: 167 },
+      { id: "entertainment", text: "Entertainment Value", votes: 203 },
+      { id: "authenticity", text: "Authentic Personality", votes: 245 },
+      { id: "versatility", text: "Multi-talented Skills", votes: 198 },
+    ],
+  },
+];
+
+const campaignStats = [
+  {
+    label: "Social Media Followers",
+    value: "25K+",
+    trend: "+15%",
+    icon: "📱",
   },
   {
-    name: "x",
-    imgPath: "/images/x.png",
+    label: "Fan Votes This Week",
+    value: "8.9K",
+    trend: "+23%",
+    icon: "⭐",
   },
   {
-    name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    label: "Campaign Supporters",
+    value: "1.2K",
+    trend: "+31%",
+    icon: "👥",
+  },
+  {
+    label: "Countries Supporting",
+    value: "12",
+    trend: "+2",
+    icon: "🌍",
+  },
+];
+
+const liveUpdates = [
+  {
+    id: 1,
+    timestamp: "2024-12-15T14:30:00Z",
+    type: "voting",
+    title: "Voting Opens!",
+    message: "BBNaija Season 10 voting is now live! Cast your vote for Bright Morgan.",
+    priority: "high",
+  },
+  {
+    id: 2,
+    timestamp: "2024-12-15T12:15:00Z",
+    type: "social",
+    title: "New Instagram Post",
+    message: "Bright shared behind-the-scenes content from his audition journey.",
+    priority: "medium",
+  },
+  {
+    id: 3,
+    timestamp: "2024-12-15T10:00:00Z",
+    type: "campaign",
+    title: "Team BRIGHTSTARS Milestone",
+    message: "We've reached 1,000 active campaign supporters! Thank you all!",
+    priority: "medium",
+  },
+];
+
+const votingPlatforms = [
+  {
+    name: "DStv Website",
+    icon: "/images/star.png",
+    description: "Official DStv voting platform for BBNaija Season 10",
+    url: "https://africamagic.dstv.com/show/bbnaija/vote",
+    isOfficial: true,
+  },
+  {
+    name: "GOtv Website", 
+    icon: "/images/star.png",
+    description: "Official GOtv voting platform for subscribers",
+    url: "https://africamagic.gotv.com/show/bbnaija/vote",
+    isOfficial: true,
+  },
+  {
+    name: "MyDStv App",
+    icon: "/images/chat.png", 
+    description: "Vote directly through the MyDStv mobile application",
+    url: "https://www.dstv.com/mydstv",
+    isOfficial: true,
+  },
+  {
+    name: "MyGOtv App",
+    icon: "/images/chat.png",
+    description: "Vote through the MyGOtv mobile application", 
+    url: "https://www.gotv.com/mygotv",
+    isOfficial: true,
+  },
+];
+
+const abilities = featureCards;
+
+const votingInstructions = [
+  {
+    step: 1,
+    title: "Visit Official Voting Site",
+    description: "Go to the official BBNaija voting platform",
+    action: "Open africamagic.dstv.com/vote",
+  },
+  {
+    step: 2,
+    title: "Find Bright Morgan",
+    description: "Look for Bright Morgan in the contestant list",
+    action: "Search for 'Bright Morgan'",
+  },
+  {
+    step: 3,
+    title: "Cast Your Vote",
+    description: "Click on Bright's profile and submit your vote",
+    action: "Vote now!",
+  },
+  {
+    step: 4,
+    title: "Share & Rally Support",
+    description: "Share with friends and family to maximize votes",
+    action: "Share on social media",
   },
 ];
 
 export {
+  navLinks,
   words,
-  abilities,
-  logoIconsList,
   counterItems,
+  logoIconsList,
+  featureCards,
+  techStackImgs,
+  techStackIcons,
   expCards,
   expLogos,
   testimonials,
-  socialImgs,
-  techStackIcons,
-  techStackImgs,
-  navLinks,
+  votingCountdown,
+  interactivePolls,
+  campaignStats,
+  liveUpdates,
+  votingInstructions,
+  votingPlatforms,
+  abilities,
 };

@@ -1,5 +1,13 @@
 import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
+import gsap             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+              Hi, I'm Bright Morgan, a multi-talented entertainer ready to bring star power to BBNaija Season 10. Vote for authenticity, charisma, and endless entertainment!
+            </p>
+
+            <Button
+              text="Vote Now"
+              className="md:w-80 md:h-16 w-60 h-12"
+              id="counter"
+            />";
 
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
@@ -27,7 +35,7 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Shaping
+                Bringing
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -46,8 +54,8 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h1>Energy to BBNaija</h1>
+              <h1>Season 10</h1>
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
